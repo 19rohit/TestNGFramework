@@ -23,14 +23,7 @@ public class Login {
 	@Test(priority=0)
 	public void Login()
 	{
-		driver.findElement(By.linkText("Log In")).click();
-		driver.findElement(By.id("email")).sendKeys("rohit@incaendo.com");
-		driver.findElement(By.id("password")).sendKeys("admin1");
-		driver.findElement(By.xpath("//button[@name='yt0']")).click();
-
-		driver.findElement(By.xpath("//button[@class='btn btn-primary btn-xs bootstro-finish-btn']")).click();
-		driver.findElement(By.xpath("//li[@class='dropdown hidden-xs']")).click();
-		driver.findElement(By.linkText("Log Out")).click();
+		System.out.println("Login Fuction Print");
 	}
 
 	@Test(priority=1)
