@@ -31,6 +31,7 @@ public class Login {
 		driver.findElement(By.xpath("//button[@class='btn btn-primary btn-xs bootstro-finish-btn']")).click();
 		driver.findElement(By.xpath("//li[@class='dropdown hidden-xs']")).click();
 		driver.findElement(By.linkText("Log Out")).click();
+		System.out.println("changes from GIt")
 	}
 
 	@Test(priority=1)
