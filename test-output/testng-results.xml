@@ -2,24 +2,24 @@
 <testng-results skipped="0" failed="0" total="2" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="188762" started-at="2016-11-24T06:05:13Z" finished-at="2016-11-24T06:08:22Z">
+  <suite name="Suite" duration-ms="30077" started-at="2016-11-30T11:59:21Z" finished-at="2016-11-30T11:59:51Z">
     <groups>
     </groups>
-    <test name="Test" duration-ms="188762" started-at="2016-11-24T06:05:13Z" finished-at="2016-11-24T06:08:22Z">
+    <test name="Test" duration-ms="30077" started-at="2016-11-30T11:59:21Z" finished-at="2016-11-30T11:59:51Z">
       <class name="Login">
-        <test-method status="PASS" signature="AppLaunch()[pri:0, instance:Login@3674f334]" name="AppLaunch" is-config="true" duration-ms="47698" started-at="2016-11-24T11:35:13Z" finished-at="2016-11-24T11:36:01Z">
+        <test-method status="PASS" signature="AppLaunch()[pri:0, instance:Login@4a0bd13d]" name="AppLaunch" is-config="true" duration-ms="16747" started-at="2016-11-30T17:29:21Z" finished-at="2016-11-30T17:29:38Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- AppLaunch -->
-        <test-method status="PASS" signature="Login()[pri:0, instance:Login@3674f334]" name="Login" duration-ms="91264" started-at="2016-11-24T11:36:01Z" finished-at="2016-11-24T11:37:32Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Login -->
-        <test-method status="PASS" signature="Registration()[pri:1, instance:Login@3674f334]" name="Registration" duration-ms="49077" started-at="2016-11-24T11:37:32Z" finished-at="2016-11-24T11:38:21Z">
+        <test-method status="PASS" signature="Registration()[pri:1, instance:Login@4a0bd13d]" name="Registration" duration-ms="12750" started-at="2016-11-30T17:29:38Z" finished-at="2016-11-30T17:29:51Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Registration -->
-        <test-method status="PASS" signature="close()[pri:0, instance:Login@3674f334]" name="close" is-config="true" duration-ms="711" started-at="2016-11-24T11:38:21Z" finished-at="2016-11-24T11:38:22Z">
+        <test-method status="PASS" signature="Login()[pri:0, instance:Login@4a0bd13d]" name="Login" duration-ms="0" started-at="2016-11-30T17:29:38Z" finished-at="2016-11-30T17:29:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Login -->
+        <test-method status="PASS" signature="close()[pri:0, instance:Login@4a0bd13d]" name="close" is-config="true" duration-ms="560" started-at="2016-11-30T17:29:51Z" finished-at="2016-11-30T17:29:51Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- close -->
